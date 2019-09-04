@@ -1,5 +1,6 @@
 
 def hopper
+  #operates on programmer_hash and returns value of grace_hopper key
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -57,6 +58,7 @@ def dennis_ritchies_language
         }
      }
      programmer_hash[:dennis_ritchie][:languages][0]
+     #returns value of dennies ritchies language as a string 
 end
 
 def adding_matz
@@ -127,6 +129,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-programmer_hash[:dennis_ritchie][:languages]="C","Assembly"
+programmer_hash[:dennis_ritchie][:languages]="C","Assembly" #adds "assembly" to "known for"
 return programmer_hash
 end
